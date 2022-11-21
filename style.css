@@ -1,0 +1,19 @@
+*,
+*::before
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/************
+    layout
+    ************/
+
+.hero {
+    height: 80vh;
+    background-color: #23424a;
+    
+}
