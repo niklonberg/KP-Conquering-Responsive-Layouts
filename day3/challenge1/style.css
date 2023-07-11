@@ -23,20 +23,17 @@ body {
   font-family: sans-serif;
 }
 
-header {
+.intro {
   background: #23424a;
   color: white;
+  padding: 4em 0;
 }
 
 .container {
   width: 80%;
   max-width: 750px;
   margin: 0 auto;
-  padding: 4em 0;
-}
-
-.container:nth-of-type(2) {
-  padding-top: 0;
+  
 }
 
 .intro-content {
