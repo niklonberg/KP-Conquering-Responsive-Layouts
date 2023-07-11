@@ -8,8 +8,9 @@ body {
 
 .container {
   width: 80%;
-  max-width: 650px;
+  max-width: 900px;
   margin: 0 auto;
+  border: 2px solid yellow;
 }
 
 .hero {
