@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25rem;
+}
+
+.container {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.hero {
+  padding: 4em 0;
+  color: white;
+  background-color: rgb(0, 59, 69);
+}
+
+.hero h1 {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.hero p {
+  line-height: 1.5em;
+  margin-bottom: 3em;
+}
+
+.hero__text {
+  width: 60%;
+}
+
+.learn-btn {
+  background-color: rgb(0, 211, 211);
+  color: black;
+  border: none;
+  padding: 1em 2em;
+  border-radius: 1000px;
+  font-weight: bold;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.learn-btn:hover {
+  opacity: .75;
+}
