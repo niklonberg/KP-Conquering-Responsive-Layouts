@@ -70,3 +70,7 @@ main.container {
   color: white;
   padding: 3rem 0;
 }
+
+main div h2 {
+  color: #87629a;
+}
