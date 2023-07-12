@@ -67,14 +67,32 @@ h1 {
 }
 
 .main-text {
-  width: 60%;
+    width: 60%;
+}
+
+.main-text h2 {
+    color: #136C72;
+}
+
+.main-text p {
+    line-height: 1.5em;
+    margin-bottom: 2rem;
+}
+
+main.container.row {
+    margin-top: 3rem;
 }
 
 .sidebar {
-  background-color: #136C72;
-  width: 35%;
-  text-align: center;
-  padding: 1em 2em;
+    background-color: #136C72;
+    color: white;
+    width: 35%;
+    text-align: center;
+    padding: 1em 2em;
+}
+
+.sidebar-item {
+    margin-bottom: 4rem;
 }
 
 .btn {
