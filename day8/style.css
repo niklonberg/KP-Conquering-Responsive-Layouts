@@ -50,3 +50,17 @@ body {
 .learn-btn:hover {
   opacity: .75;
 }
+
+main.container {
+  padding: 3rem 0;
+}
+
+.row {
+  display: flex;
+  gap: .75em;
+}
+
+.col {
+  text-align: center;
+  line-height: 2rem;
+}
