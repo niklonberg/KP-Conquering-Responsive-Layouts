@@ -33,6 +33,26 @@ h1 {
     width: 100%;
 }
 
+.nav {
+    background-color: #136C72;
+    color: white;
+}
+
+.nav__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav__item {
+    text-transform: uppercase;
+}
+
+.sign-up-btn {
+    padding: 2em;
+    background-color: white;
+    color: #136C72;;
+}
 .hero {
     padding: 100px 0;
     background-color: #23424A;
