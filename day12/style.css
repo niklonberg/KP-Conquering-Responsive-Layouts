@@ -1,3 +1,9 @@
+:root {
+  --primary: #F3EED9;
+  --secondary: #824936;
+  --tertiary: #222C2A;  
+}
+
 * *::before *::after {
   box-sizing: border-box;
 }
@@ -8,7 +14,7 @@ body {
 }
 
 .landing-header {
-  background-color: #F3EED9;
+  background-color: var(--primary);
   min-height: 660px;
   text-align: center;
 }
@@ -39,6 +45,10 @@ body {
   flex: 1;
 }
 
+.padding-tb {
+  padding: 4rem 0;
+}
+
 .container {
   width: 80%;
   max-width: 1128px;
@@ -47,4 +57,14 @@ body {
 }
 
 .main__designs {
+}
+
+.main__customize {
+  background-color: var(--tertiary);
+  color: white;
+}
+
+.main__care {
+  background-color: var(--secondary);
+  color: white;
 }
