@@ -9,4 +9,23 @@ body {
 
 .landing-header {
   background-color: #F3EED9;
+  min-height: 660px;
+  text-align: center;
+}
+
+.center-align {
+  display: flex;
+  align-items: center;
+}
+
+.col-reverse {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.container {
+  max-width: 1128px;
+  margin: 0 auto;
+  border: 2px solid red;
 }
