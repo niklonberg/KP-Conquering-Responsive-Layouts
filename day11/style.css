@@ -1,0 +1,98 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 2px solid yellow;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col {
+    width: 100%;
+}
+
+.hero {
+    padding: 100px 0;
+    background-color: #23424A;
+    color: #FFF;
+}
+
+.hero__text { 
+    width: 60%;
+}
+
+.hero__img {
+    width: 35%;
+    align-self: flex-start;
+}
+
+.hero p {
+    margin-bottom: 3em;
+}
+
+.main-text {
+    width: 60%;
+}
+
+.main-text h2 {
+    color: #136C72;
+}
+
+.main-text p {
+    line-height: 1.5em;
+    margin-bottom: 2rem;
+}
+
+main.container.row {
+    margin-top: 3rem;
+}
+
+.sidebar {
+    background-color: #136C72;
+    color: white;
+    width: 35%;
+    text-align: center;
+    padding: 1em 2em;
+}
+
+.sidebar-item {
+    margin-bottom: 4rem;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase; 
+    color: #23424A;
+    font-weight: 900;
+    background-color: #38CFD9;
+    padding: .75em 2em;
+    border-radius: 100px;
+}
+
+.btn:hover,
+.btn:focus {
+    opacity: .75; 
+}
