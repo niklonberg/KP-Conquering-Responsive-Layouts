@@ -74,6 +74,11 @@ header {
     width: 100%;
 }
 
+.nav__link {
+    color: white;
+    text-transform: uppercase;
+}
+
 
 .nav__list {
 
